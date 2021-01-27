@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t valgrind_img .
+docker run --name valgrind_cont -it -v $PWD:/app valgrind_img

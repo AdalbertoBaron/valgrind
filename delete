@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker rm valgrind_cont
+#docker rmi valgrind_img
