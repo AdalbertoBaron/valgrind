@@ -1,4 +1,4 @@
 #!/bin/sh
 
-docker rm valgrind_cont
-#docker rmi valgrind_img
+docker rm valgrind_container
+docker rmi valgrind_img
