@@ -7,6 +7,6 @@ echo "\033[32m 2) Check your folder inside docker-container in /app/ by using co
 echo "\033[32m 3) Compile your files with 'gcc' or 'g++' (or use 'make' command if you have Makefile) inside docker-container\033[0m"
 echo "\033[32m 4) Use command 'valgrind ./your_exec_file_name' to check leaks inside docker-container!\033[0m"
 echo "\033[32m 5) You can make changes in your files in real time mode (without restart container)\033[0m"
-echo "\033[32m 6) Use 'exit' command to leave docker-container)\n\033[0m"
+echo "\033[32m 6) Use 'exit' command to leave docker-container\n\033[0m"
 docker run --name valgrind_container -it -v $PWD:/app valgrind_img
 docker rm valgrind_container
